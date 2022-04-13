@@ -1,6 +1,7 @@
 let fruits = ["apple", "apple", "orange", "mango", "mango", "mango", "mango"];
 let mapFruits = new Map();
 let current_num = 0;
+
 for (let fruit of fruits) {
   if (mapFruits.has(fruit)) {
     current_num = mapFruits.get(fruit);
