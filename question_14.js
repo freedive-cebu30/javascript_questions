@@ -18,5 +18,5 @@ function compareString(str1, str2){
     }
   }
   
-  return repetitionArray.join();
+  return repetitionArray;
 }
