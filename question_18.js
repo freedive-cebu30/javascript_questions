@@ -10,7 +10,7 @@ for (let num of array1) {
 }
 console.log(maxValue);
 
-// reduceを使った方法
-// the way of reduce
+// Math.maxを使った方法
+// the way of Math.max
 let m = Math.max(...array1);
 console.log(maxValue);
